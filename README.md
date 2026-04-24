@@ -26,3 +26,16 @@ Sigue estos pasos para levantar el servidor en tu máquina:
 git clone [URL_DEL_REPOSITORIO_BACK_AQUÍ]
 cd roadmap-project-back
 npm install
+```
+
+### 2. Configurar la Base de Datos Local
+Crea un archivo llamado `.env` en la raíz del proyecto. Deberás configurar tu URL de conexión local siguiendo este formato:
+
+```env
+# Reemplaza 'usuario' y 'password' con tus credenciales de PostgreSQL local
+# Por defecto en Windows suele ser usuario: postgres y el password que elegiste al instalar
+DATABASE_URL="postgresql://usuario:password@localhost:5432/roadmap_db?schema=public"
+PORT=3000
+```
+Asegurate de llamar a la base de datos `roadmap_db` usando phpmyadmin o psql antes de hacer las migraciones.
+
