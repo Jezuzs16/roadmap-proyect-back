@@ -23,7 +23,7 @@ Sigue estos pasos para levantar el servidor en tu máquina:
 
 ### 1. Clonar e instalar
 ```bash
-git clone [URL_DEL_REPOSITORIO_BACK_AQUÍ]
+git clone 
 cd roadmap-project-back
 npm install
 ```
