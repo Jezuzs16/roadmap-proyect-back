@@ -1,7 +1,4 @@
 # ⚙️ Roadmap Tech - API Backend
-
-Este es el motor de nuestra aplicación. Aquí gestionaremos la lógica de negocio, la conexión con la base de datos **PostgreSQL** y la entrega de datos a nuestro Frontend.
-
 ## 🛠️ Tecnologías a utilizar
 
 * **[Node.js](https://nodejs.org/):** Entorno de ejecución para JavaScript en el servidor.
