@@ -14,6 +14,7 @@
 1.  **Node.js** (Versión 18 o superior).
 2.  **PostgreSQL:** Asegúrate de tenerlo instalado y un servidor corriendo localmente (pueden usar pgAdmin o Docker).
 3.  **Extensión de Prisma:** Instala la extensión "Prisma" en VS Code para tener resaltado de sintaxis.
+4.  **Git:** Instala git para el control de versiones y flujo de trabajo.
 
 ---
 
